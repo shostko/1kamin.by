@@ -1,14 +1,395 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<style> 
-body {
-  background-image: url("bg.jpg");
-  background-color: #cccccc;
-}
-</style>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<link href="kamins.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.11.1.min.js"></script>
+<script src="jquery.ui.core.min.js"></script>
+<script src="jquery.ui.widget.min.js"></script>
+<script src="jquery.ui.mouse.min.js"></script>
+<script src="jquery.ui.draggable.min.js"></script>
+<link rel="stylesheet" href="prettyPhoto/css/prettyPhoto.css">
+<script src="prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[data-rel='prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]']").attr('rel', 'prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]');
+      $("a[rel^='prettyPhoto_indexPhotoGallery1']").prettyPhoto({theme:'facebook',social_tools:false});
+      var zindex = 250;
+      $("#indexPhotoGallery1 a").draggable(
+      {
+         start: function()
+         {
+            zindex = zindex + 1;
+            $(this).css({zIndex:zindex});
+         },
+         stop: function()
+         {
+            rotation = Math.floor(Math.random()*15);
+            if (Math.floor(Math.random()*11)>5)
+            {
+               rotation = rotation * -1;
+            }
+            $(this).data('rotation', rotation);
+            $(this).css({webkitTransform:"rotate("+rotation+"deg)",MozTransform:"rotate("+rotation+"deg)",msTransform:"rotate("+rotation+"deg)",transform:"rotate("+rotation+"deg)"});
+         }
+      });
+   });
+</script>
 </head>
 <body>
-    <p>1kamin.by</p>
+   <div id="indexLayer1" style="position:absolute;text-align:center;left:0%;top:0px;width:100%;height:85px;z-index:142;">
+      <div id="indexLayer1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText1" style="position:absolute;left:69px;top:17px;width:261px;height:48px;z-index:0;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:13px;"><strong>Профессиональная установка и облицовка каминов, печей, дымоходов<br>в Гродно и области</strong></span></div>
+         <div id="wb_indexText2" style="position:absolute;left:506px;top:12px;width:261px;height:34px;text-align:right;z-index:1;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;">+375(29)</span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>
+         <div id="wb_indexText3" style="position:absolute;left:506px;top:52px;width:261px;height:20px;text-align:right;z-index:2;">
+            <span style="color:#FF0000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Пн-Вс&nbsp; 09.00-19.00</span></div>
+         
+         <div id="wb_indexImage2" style="position:absolute;left:0px;top:12px;width:60px;height:60px;z-index:4;">
+            <img src="images/logo1.png" id="indexImage2" alt=""></div>
+      </div>
+   </div>
+   <div id="indexLayer2" style="position:absolute;text-align:center;left:0%;top:85px;width:100%;height:665px;z-index:143;">
+      <div id="indexLayer2_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexShape2" style="position:absolute;left:510px;top:98px;width:460px;height:463px;filter:alpha(opacity=80);opacity:0.80;z-index:5;">
+            <img src="images/img0002.png" id="indexShape2" alt="" style="width:460px;height:463px;"></div>
+         <div id="wb_indexImage3" style="position:absolute;left:540px;top:98px;width:411px;height:294px;z-index:6;">
+            <img src="images/utp6.png" id="indexImage3" alt=""></div>
+         <div id="wb_indexShape3" style="position:absolute;left:568px;top:382px;width:15px;height:15px;z-index:7;">
+            <img src="images/img0003.png" id="indexShape3" alt="" style="width:15px;height:15px;"></div>
+         <div id="wb_indexText5" style="position:absolute;left:594px;top:376px;width:261px;height:26px;z-index:8;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>произведём замеры</strong></span></div>
+         <div id="wb_indexText6" style="position:absolute;left:594px;top:410px;width:261px;height:26px;z-index:9;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>подберём стиль</strong></span></div>
+         <div id="wb_indexText7" style="position:absolute;left:594px;top:444px;width:261px;height:26px;z-index:10;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>предложим модели</strong></span></div>
+         <div id="wb_indexText8" style="position:absolute;left:594px;top:481px;width:261px;height:26px;z-index:11;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>доставим и установим</strong></span></div>
+         <div id="wb_indexText9" style="position:absolute;left:594px;top:515px;width:261px;height:26px;z-index:12;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>дадим гарантию</strong></span></div>
+         <div id="wb_indexShape8" style="position:absolute;left:568px;top:415px;width:15px;height:15px;z-index:13;">
+            <img src="images/img0004.png" id="indexShape8" alt="" style="width:15px;height:15px;"></div>
+         <div id="wb_indexShape4" style="position:absolute;left:568px;top:450px;width:15px;height:15px;z-index:14;">
+            <img src="images/img0005.png" id="indexShape4" alt="" style="width:15px;height:15px;"></div>
+         <div id="wb_indexShape5" style="position:absolute;left:568px;top:487px;width:15px;height:15px;z-index:15;">
+            <img src="images/img0006.png" id="indexShape5" alt="" style="width:15px;height:15px;"></div>
+         <div id="wb_indexShape6" style="position:absolute;left:568px;top:520px;width:15px;height:15px;z-index:16;">
+            <img src="images/img0007.png" id="indexShape6" alt="" style="width:15px;height:15px;"></div>
+      </div>
+   </div>
+   <div id="indexLayer3" style="position:absolute;text-align:center;left:0%;top:750px;width:100%;height:656px;z-index:144;">
+      <div id="indexLayer3_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexImage1" style="position:absolute;left:0px;top:44px;width:40px;height:65px;z-index:24;">
+            <img src="images/flame2.png" id="indexImage1" alt=""></div>
+         <div id="wb_indexText4" style="position:absolute;left:49px;top:71px;width:569px;height:23px;z-index:25;text-align:left;">
+            <span style="color:#000000;font-family:'Intro ';font-size:19px;">большой выбор моделей </span><span style="color:#FF0000;font-family:'Intro ';font-size:19px;">сводит вас с ума?</span></div>
+         <div id="wb_indexImage4" style="position:absolute;left:1px;top:121px;width:40px;height:65px;z-index:26;">
+            <img src="images/flame2.png" id="indexImage4" alt=""></div>
+         <div id="wb_indexText10" style="position:absolute;left:50px;top:148px;width:569px;height:23px;z-index:27;text-align:left;">
+            <span style="color:#FF0000;font-family:'Intro ';font-size:19px;">не можете определиться</span><span style="color:#FF4200;font-family:'Intro ';font-size:19px;"> </span><span style="color:#000000;font-family:'Intro ';font-size:19px;">со стилем камина?</span></div>
+         <div id="wb_indexImage5" style="position:absolute;left:0px;top:197px;width:40px;height:65px;z-index:28;">
+            <img src="images/flame2.png" id="indexImage5" alt=""></div>
+         <div id="wb_indexText11" style="position:absolute;left:50px;top:211px;width:569px;height:46px;z-index:29;text-align:left;">
+            <span style="color:#FF0000;font-family:'Intro ';font-size:19px;">Нет времени на все</span><span style="color:#FF4200;font-family:'Intro ';font-size:19px;"> </span><span style="color:#000000;font-family:'Intro ';font-size:19px;">и вы просто хотите<br>получить несколько вариантов?</span></div>
+         <div id="wb_indexImage6" style="position:absolute;left:0px;top:273px;width:40px;height:65px;z-index:30;">
+            <img src="images/flame2.png" id="indexImage6" alt=""></div>
+         <div id="wb_indexText12" style="position:absolute;left:49px;top:300px;width:569px;height:23px;z-index:31;text-align:left;">
+            <span style="color:#FF0000;font-family:'Intro ';font-size:19px;">Не знаете где</span><span style="color:#000000;font-family:'Intro ';font-size:19px;"> лучше разместить камин?</span></div>
+         <div id="wb_indexImage7" style="position:absolute;left:0px;top:348px;width:40px;height:65px;z-index:32;">
+            <img src="images/flame2.png" id="indexImage7" alt=""></div>
+         <div id="wb_indexText13" style="position:absolute;left:49px;top:375px;width:569px;height:23px;z-index:33;text-align:left;">
+            <span style="color:#000000;font-family:'Intro ';font-size:19px;">Не уверены</span><span style="color:#FF4200;font-family:'Intro ';font-size:19px;"> </span><span style="color:#FF0000;font-family:'Intro ';font-size:19px;">в точности своих замеров?</span></div>
+         <div id="wb_indexImage8" style="position:absolute;left:0px;top:426px;width:40px;height:65px;z-index:34;">
+            <img src="images/flame2.png" id="indexImage8" alt=""></div>
+         <div id="wb_indexText14" style="position:absolute;left:49px;top:437px;width:569px;height:46px;z-index:35;text-align:left;">
+            <span style="color:#FF0000;font-family:'Intro ';font-size:19px;">Ваш дом на этапе строительства</span><span style="color:#000000;font-family:'Intro ';font-size:19px;"> и вы хотите спланировать его заранее?</span></div>
+         <div id="wb_indexImage9" style="position:absolute;left:0px;top:506px;width:40px;height:65px;z-index:36;">
+            <img src="images/flame2.png" id="indexImage9" alt=""></div>
+         <div id="wb_indexText15" style="position:absolute;left:49px;top:517px;width:569px;height:46px;z-index:37;text-align:left;">
+            <span style="color:#FF0000;font-family:'Intro ';font-size:19px;">Или ваш дом уже построен,</span><span style="color:#FF4200;font-family:'Intro ';font-size:19px;"> </span><span style="color:#000000;font-family:'Intro ';font-size:19px;">а теперь хочется камин?</span></div>
+         <div id="wb_indexImage10" style="position:absolute;left:556px;top:54px;width:118px;height:67px;z-index:38;">
+            <img src="images/arrow-1.png" id="indexImage10" alt=""></div>
+         <div id="wb_indexImage11" style="position:absolute;left:553px;top:491px;width:130px;height:94px;z-index:39;">
+            <img src="images/img0009.png" id="indexImage11" alt=""></div>
+         <div id="wb_indexForm1" style="position:absolute;left:617px;top:94px;width:353px;height:397px;z-index:40;">
+            <form name="indexForm1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="indexForm1">
+              <div id="wb_indexShape7" style="position:absolute;left:2px;top:15px;width:351px;height:374px;filter:alpha(opacity=80);opacity:0.80;z-index:17;">
+                  <img src="images/img0008.png" id="indexShape7" alt="" style="width:351px;height:374px;"></div>
+             <div id="wb_indexText21" style="position:absolute;left:22px;top:262px;width:261px;height:34px;text-align:right;z-index:43;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>+375(29)</strong></span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>
+		   <div id="wb_indexText16" style="position:absolute;left:1px;top:88px;width:351px;height:92px;text-align:center;z-index:23;">
+                  <span style="color:#000000;font-family:'Intro ';font-size:19px;">получите<br> </span><span style="color:#FFFFFF;font-family:'Intro ';font-size:19px;">бесплатную Консультацию </span><span style="color:#000000;font-family:'Intro ';font-size:19px;">специалиста по каминам<br></span><span style="color:#FFFFFF;font-family:'Intro ';font-size:19px;">сделав один звонок</span></div>
+            </form>
+         </div>
+      </div>
+   </div>
+   <div id="indexLayer4" style="position:absolute;text-align:center;left:0%;top:1406px;width:100%;height:267px;z-index:145;">
+      <div id="indexLayer4_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText19" style="position:absolute;left:386px;top:74px;width:583px;height:70px;z-index:41;text-align:left;">
+            <span style="color:#000000;font-family:'Intro ';font-size:29px;">мы решим </span><span style="color:#FF0000;font-family:'Intro ';font-size:29px;">все ваши проблемы</span><span style="color:#000000;font-family:'Intro ';font-size:29px;"><br>с камином и даже больше!</span></div>
+         <div id="wb_indexText20" style="position:absolute;left:427px;top:170px;width:261px;height:26px;z-index:42;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;">Звоните по телефону :</span></div>
+         <div id="wb_indexText21" style="position:absolute;left:602px;top:162px;width:261px;height:34px;text-align:right;z-index:43;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>+375(29)</strong></span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>
+      </div>
+   </div>
+   <div id="indexLayer5" style="position:absolute;text-align:center;left:0%;top:1673px;width:100%;height:1174px;z-index:146;">
+      <div id="indexLayer5_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText28" style="position:absolute;left:198px;top:47px;width:569px;height:35px;text-align:center;z-index:44;">
+            <span style="color:#FF0000;font-family:'Intro ';font-size:29px;">- ЧЕГО СТОИТ ОПАСАТЬСЯ? -</span></div>
+         <div id="wb_indexText22" style="position:absolute;left:132px;top:87px;width:708px;height:26px;text-align:center;z-index:45;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;">(возможные последствия неправильной установки)</span></div>
+         <div id="wb_indexImage17" style="position:absolute;left:0px;top:145px;width:251px;height:335px;z-index:46;">
+            <img src="images/2.jpg" id="indexImage17" alt=""></div>
+         <div id="wb_indexImage16" style="position:absolute;left:386px;top:676px;width:196px;height:336px;z-index:47;">
+            <img src="images/img0010.jpg" id="indexImage16" alt=""></div>
+         <div id="wb_indexImage15" style="position:absolute;left:678px;top:145px;width:291px;height:336px;z-index:48;">
+            <img src="images/img0011.jpg" id="indexImage15" alt=""></div>
+         <div id="wb_indexImage14" style="position:absolute;left:0px;top:676px;width:252px;height:336px;z-index:49;">
+            <img src="images/7.jpg" id="indexImage14" alt=""></div>
+         <div id="wb_indexImage12" style="position:absolute;left:639px;top:676px;width:331px;height:336px;z-index:50;">
+            <img src="images/img0012.jpg" id="indexImage12" alt=""></div>
+         <div id="wb_indexImage13" style="position:absolute;left:358px;top:145px;width:252px;height:336px;z-index:51;">
+            <img src="images/8.jpg" id="indexImage13" alt=""></div>
+         <div id="wb_indexShape9" style="position:absolute;left:0px;top:480px;width:251px;height:99px;z-index:52;">
+            <img src="images/img0013.png" id="indexShape9" alt="" style="width:251px;height:99px;"></div>
+         <div id="wb_indexShape10" style="position:absolute;left:358px;top:480px;width:251px;height:99px;z-index:53;">
+            <img src="images/img0014.png" id="indexShape10" alt="" style="width:251px;height:99px;"></div>
+         <div id="wb_indexShape11" style="position:absolute;left:678px;top:481px;width:291px;height:129px;z-index:54;">
+            <img src="images/img0015.png" id="indexShape11" alt="" style="width:291px;height:129px;"></div>
+         <div id="wb_indexShape12" style="position:absolute;left:0px;top:1012px;width:251px;height:99px;z-index:55;">
+            <img src="images/img0016.png" id="indexShape12" alt="" style="width:251px;height:99px;"></div>
+         <div id="wb_indexShape13" style="position:absolute;left:638px;top:1012px;width:331px;height:99px;z-index:56;">
+            <img src="images/img0017.png" id="indexShape13" alt="" style="width:331px;height:99px;"></div>
+         <div id="wb_indexShape14" style="position:absolute;left:386px;top:1012px;width:195px;height:99px;z-index:57;">
+            <img src="images/img0018.png" id="indexShape14" alt="" style="width:195px;height:99px;"></div>
+         <div id="wb_indexText24" style="position:absolute;left:0px;top:499px;width:251px;height:60px;text-align:center;z-index:58;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Так выглядят некачественные трубы из нержавеющей стали.<br><strong>Эксплуатировались&nbsp; 1 год.</strong></span></div>
+         <div id="wb_indexText23" style="position:absolute;left:386px;top:1031px;width:197px;height:60px;text-align:center;z-index:59;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Некачественные </strong>сэндвичи банной печи, отводы на камине</span></div>
+         <div id="wb_indexText25" style="position:absolute;left:680px;top:490px;width:289px;height:110px;text-align:center;z-index:60;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:15px;"><strong>Неправильный проход кровли</strong><br>(труба не зафиксирована и не имеет подкровельного фланца).<br><strong>Пожарные нормы не соблюдены<br></strong> (труба соприкасается с деревянной обрешеткой)</span></div>
+         <div id="wb_indexText26" style="position:absolute;left:0px;top:1021px;width:262px;height:80px;z-index:61;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Пожарные нормы <strong>не соблюдены (</strong>вагонка подходит к трубе на 5 см). Виден стык трубы в перекрытии, чего быть не должно.</span></div>
+         <div id="wb_indexText29" style="position:absolute;left:358px;top:490px;width:261px;height:80px;text-align:center;z-index:62;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Неправильное соединение сэндвичей между собой.<br>Отсутствие фиксации (нет заклепок или саморезов).</span></div>
+         <div id="wb_indexText27" style="position:absolute;left:638px;top:1021px;width:331px;height:80px;text-align:center;z-index:63;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Расстояние половых досок до трубы<br>не соответствует пожарным нормам.<br>Засыпка керамзитом требует<br><strong>увеличения пожарных норм в 2 раза.</strong></span></div>
+      </div>
+   </div>
+   <div id="indexLayer6" style="position:absolute;text-align:center;left:0%;top:2847px;width:100%;height:267px;z-index:147;">
+      <div id="indexLayer6_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText30" style="position:absolute;left:358px;top:19px;width:611px;height:100px;text-align:center;z-index:64;">
+            <span style="color:#000000;font-family:'Intro ';font-size:21px;">МЫ ГАРАНТИРУЕМ КАЧЕСТВО ВЫПОЛНЕНИЯ РАБОТ. МЫ РАБОТАЕМ ТОЛЬКО С СОБЛЮДЕНИЕМ<br> ПРАВИЛ И ИНСТРУКЦИЙ СТРОИТЕЛЬНОЙ<br> И ПОЖАРНОЙ БЕЗОПАСНОСТИ.</span></div>
+         <div id="wb_indexText33" style="position:absolute;left:375px;top:142px;width:567px;height:70px;text-align:center;z-index:65;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">&#1053;&#1072;&#1076;&#1077;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100;, &#1073;&#1077;&#1079;&#1086;&#1087;&#1072;&#1089;&#1085;&#1086;&#1089;&#1090;&#1100;<br>&#1080; &#1087;&#1088;&#1086;&#1092;&#1077;&#1089;&#1089;&#1080;&#1086;&#1085;&#1072;&#1083;&#1080;&#1079;&#1084; -<br><strong>&#1075;&#1083;&#1072;&#1074;&#1085;&#1086;&#1077; &#1074; &#1085;&#1072;&#1096;&#1077;&#1081; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077;!</strong></span></div>
+         <div id="wb_indexShape15" style="position:absolute;left:621px;top:123px;width:76px;height:7px;z-index:66;">
+            <img src="images/img0019.png" id="indexShape15" alt="" style="width:76px;height:7px;"></div>
+         <div id="wb_indexText31" style="position:absolute;left:436px;top:228px;width:261px;height:23px;z-index:67;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">Звоните по телефону :</span></div>
+         <div id="wb_indexText32" style="position:absolute;left:592px;top:217px;width:261px;height:34px;text-align:right;z-index:68;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>+375(29)</strong></span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>
+      </div>
+   </div>
+   <div id="indexLayer7" style="position:absolute;text-align:center;left:0%;top:3114px;width:100%;height:1229px;z-index:148;">
+      <div id="indexLayer7_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText34" style="position:absolute;left:132px;top:47px;width:708px;height:35px;text-align:center;z-index:69;">
+            <span style="color:#000000;font-family:'Intro ';font-size:29px;">- КАК МЫ БУДЕМ РЕШАТЬ ВАШУ ЗАДАЧУ -</span></div>
+         <div id="wb_indexImage18" style="position:absolute;left:0px;top:122px;width:182px;height:198px;z-index:70;">
+            <img src="images/step-1.png" id="indexImage18" alt=""></div>
+         <div id="wb_indexText35" style="position:absolute;left:200px;top:179px;width:751px;height:69px;z-index:71;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">Бесплатно выезжаем к Вам на объект: осматриваем место установки камина и где будет проходить дымоход, производим замеры и проводим бесплатную консультацию по всем вопросам которые у вас есть.</span></div>
+         <div id="wb_indexImage19" style="position:absolute;left:0px;top:334px;width:188px;height:202px;z-index:72;">
+            <img src="images/step-2.png" id="indexImage19" alt=""></div>
+         <div id="wb_indexText37" style="position:absolute;left:198px;top:406px;width:753px;height:69px;z-index:73;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">По результатам замеров и ваших пожеланий, составляем смету и договор на услуги монтажа, после чего, все утверждаем с Вами, при необходимости вносим корректировки.</span></div>
+         <div id="wb_indexImage20" style="position:absolute;left:0px;top:551px;width:185px;height:202px;z-index:74;">
+            <img src="images/step-3.png" id="indexImage20" alt=""></div>
+         <div id="wb_indexText36" style="position:absolute;left:198px;top:623px;width:753px;height:69px;z-index:75;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">Подписываем договор на услуги монтажа камина и каминного оборудования, Вы вносите предоплату за материалы, мы завозим камин, дымоход и сопутствующие материалы для монтажа и приступаем к работе.</span></div>
+         <div id="wb_indexText38" style="position:absolute;left:198px;top:834px;width:753px;height:92px;z-index:76;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">По завершению работ, Вы осматриваете и принимаете работу, при необходимости вносим коррективы. Производим первую протопку камина, этот процесс является обязательным и осуществляется определенным образом. Обязательно убираем за собой мусор!</span></div>
+         <div id="wb_indexText39" style="position:absolute;left:200px;top:1042px;width:753px;height:94px;z-index:77;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:19px;">После оплаты оставшейся суммы, Вы получаете <strong>гарантию на работы на 1 год! </strong>Гарантия на каминное оборудование идет от производителя. Теперь Вы обладатель высококлассного камина, который прослужит Вам не один десяток лет!<br><strong>Мы - гарантируем!</strong></span></div>
+         <div id="wb_indexImage21" style="position:absolute;left:0px;top:769px;width:187px;height:203px;z-index:78;">
+            <img src="images/step-4.png" id="indexImage21" alt=""></div>
+         <div id="wb_indexImage23" style="position:absolute;left:0px;top:985px;width:185px;height:197px;z-index:79;">
+            <img src="images/step-5%20%281%29.png" id="indexImage23" alt=""></div>
+      </div>
+   </div>
+   <div id="indexLayer8" style="position:absolute;text-align:center;left:0%;top:4343px;width:100%;height:267px;z-index:149;">
+      <div id="indexLayer8_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText40" style="position:absolute;left:359px;top:78px;width:611px;height:50px;text-align:center;z-index:85;">
+            <span style="color:#000000;font-family:'Intro ';font-size:21px;">Хотите решить вопрос с камином<br> раз и навсегда?</span></div>
+         <div id="wb_indexText41" style="position:absolute;left:411px;top:142px;width:515px;height:40px;text-align:center;z-index:86;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Звоните по телефону:</span></div>
+	   <div id="wb_indexText32" style="position:absolute;left:502px;top:167px;width:261px;height:34px;text-align:right;z-index:68;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>+375(29)</strong></span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>         
+      </div>
+   </div>
+   <div id="indexLayer9" style="position:absolute;text-align:center;left:0%;top:4610px;width:100%;height:865px;z-index:150;">
+      <div id="indexLayer9_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexImage24" style="position:absolute;left:233px;top:241px;width:509px;height:410px;filter:alpha(opacity=70);opacity:0.70;z-index:100;">
+            <img src="images/bigicon2.png" id="indexImage24" alt=""></div>
+         <div id="wb_indexText44" style="position:absolute;left:132px;top:47px;width:708px;height:35px;text-align:center;z-index:101;">
+            <span style="color:#000000;font-family:'Intro ';font-size:29px;">- Полный список услуг -</span></div>
+         <div id="wb_indexText45" style="position:absolute;left:77px;top:110px;width:875px;height:80px;z-index:102;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Консультации по подбору и установке каминов</strong><br>Выезд на дом к заказчику,&nbsp; изучение места установки камина, проверка высоты&nbsp; и диаметра (площади сечения)&nbsp; дымохода, рассмотрение вариантов организации притока воздуха к топке и разводки теплого воздуха в другие помещения.</span></div>
+         <div id="wb_indexText46" style="position:absolute;left:77px;top:209px;width:877px;height:60px;z-index:103;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Установка и подключние топки</strong><br>Установка топки на жесткое основание и&nbsp; заданную высоту (под облицовку) - подключение к существующему дымоходу (трубы, коленья, редукторы - герметизация стыков труб).</span></div>
+         <div id="wb_indexText47" style="position:absolute;left:77px;top:287px;width:753px;height:60px;z-index:104;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Установка облицовки</strong><br>Подгонка элементов стандартной облицовки к имеющимся конструкциям помещения и конкретной топки - склейка элементов облицовки - шлифовка мрамора (устранение мелких дефектов).</span></div>
+         <div id="wb_indexText48" style="position:absolute;left:77px;top:363px;width:753px;height:60px;z-index:105;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Возведение облицовки по индивидуальному проекту</strong><br>Возведение нестандартной облицовки по индивидуальному проекту заказчика из материалов заказчика ( блоки ячеистого бетона, гипсокартон, камень, мрамор).</span></div>
+         <div id="wb_indexText49" style="position:absolute;left:78px;top:764px;width:753px;height:40px;z-index:106;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Углублене топки</strong><br>Штробление станы для углубления топки.</span></div>
+         <div id="wb_indexText50" style="position:absolute;left:77px;top:692px;width:753px;height:60px;z-index:107;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Разводка теплого воздуха</strong><br>Отверстия в стенах или перекрытиях, прокладка утепленных каналов, установка решеток или анимостатов - установка турбины и разветвителей тепловых каналов (при необходиости).</span></div>
+         <div id="wb_indexText51" style="position:absolute;left:78px;top:618px;width:753px;height:60px;z-index:108;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Приток воздуха<br></strong>Штробление станы или стяжки&nbsp; и прокладка утепленного короба - проход ч\з стену - установка козырька, переходников, шибера - подключение к топке.</span></div>
+         <div id="wb_indexText52" style="position:absolute;left:78px;top:562px;width:753px;height:40px;z-index:109;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Дымоход</strong><br>Гильзование - работа на крыше ( проход ч\з крышку - герметизация - установка зонтика).</span></div>
+         <div id="wb_indexText53" style="position:absolute;left:77px;top:446px;width:751px;height:100px;z-index:110;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;"><strong>Возведение короба</strong><br>Возведение чернового короба \без отделки\ с ровными \плоскими\ вертикальными или налонными стенками из специального современного материала (Superiol, Grenaisol) - изготовление декомпрессионной камеры -установка решеток - термоизоляция внутренних стенок короба, облицовки,балки (базальтовой ватой).</span></div>
+         <div id="wb_indexShape16" style="position:absolute;left:10px;top:125px;width:40px;height:40px;z-index:111;">
+            <img src="images/img0020.png" id="indexShape16" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape17" style="position:absolute;left:10px;top:220px;width:40px;height:40px;z-index:112;">
+            <img src="images/img0021.png" id="indexShape17" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape23" style="position:absolute;left:10px;top:299px;width:40px;height:40px;z-index:113;">
+            <img src="images/img0022.png" id="indexShape23" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape24" style="position:absolute;left:9px;top:370px;width:40px;height:40px;z-index:114;">
+            <img src="images/img0023.png" id="indexShape24" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape22" style="position:absolute;left:10px;top:477px;width:40px;height:40px;z-index:115;">
+            <img src="images/img0024.png" id="indexShape22" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape21" style="position:absolute;left:10px;top:562px;width:40px;height:40px;z-index:116;">
+            <img src="images/img0025.png" id="indexShape21" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape20" style="position:absolute;left:10px;top:629px;width:40px;height:40px;z-index:117;">
+            <img src="images/img0026.png" id="indexShape20" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape19" style="position:absolute;left:10px;top:701px;width:40px;height:40px;z-index:118;">
+            <img src="images/img0027.png" id="indexShape19" alt="" style="width:40px;height:40px;"></div>
+         <div id="wb_indexShape18" style="position:absolute;left:10px;top:764px;width:40px;height:40px;z-index:119;">
+            <img src="images/img0028.png" id="indexShape18" alt="" style="width:40px;height:40px;"></div>
+      </div>
+   </div>
+   <div id="indexLayer10" style="position:absolute;text-align:center;left:0%;top:5475px;width:100%;height:1546px;z-index:151;">
+      <div id="indexLayer10_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+      </div>
+   </div>
+   <div id="indexLayer11" style="position:absolute;text-align:center;left:2%;top:5422px;width:97%;height:1572px;z-index:152;">
+      <div id="indexLayer11_Container" style="width:950px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText55" style="position:absolute;left:112px;top:119px;width:708px;height:35px;text-align:center;z-index:120;">
+            <span style="color:#000000;font-family:'Intro ';font-size:29px;"> - НАШИ ВЫПОЛНЕННЫЕ РАБОТЫ - </span></div>
+         <div id="wb_indexPhotoGallery1" style="position:absolute;left:40px;top:186px;width:852px;height:1374px;z-index:121;">
+            <table id="indexPhotoGallery1">
+               <tr>
+                  <td class="image"><a href="images/5d8b40_4e0208a468094fe4b3d8377b78122f67.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img0" src="images/tn_5d8b40_4e0208a468094fe4b3d8377b78122f67.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_6ad83aa2dd0b4811bc9bcc74787e6842.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img1" src="images/tn_5d8b40_6ad83aa2dd0b4811bc9bcc74787e6842.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_7aa8f473e4214d99a1a7f3e783734d96.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img2" src="images/tn_5d8b40_7aa8f473e4214d99a1a7f3e783734d96.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_8a73da74840846409899f06589b10095.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img3" src="images/tn_5d8b40_8a73da74840846409899f06589b10095.png"></a></td>
+               </tr>
+               <tr>
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+               </tr>
+               <tr>
+                  <td class="image"><a href="images/5d8b40_9bd6ec4ba0d2485e84486302ca792297.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img4" src="images/tn_5d8b40_9bd6ec4ba0d2485e84486302ca792297.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_16e453ac8126468383b03c8147f2e944.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img5" src="images/tn_5d8b40_16e453ac8126468383b03c8147f2e944.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_30df6925aaf24a66b3992546910f1bd7.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img6" src="images/tn_5d8b40_30df6925aaf24a66b3992546910f1bd7.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_31e3a7d2eb0348ccac79ad9769b59af7.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img7" src="images/tn_5d8b40_31e3a7d2eb0348ccac79ad9769b59af7.png"></a></td>
+               </tr>
+               <tr>
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+               </tr>
+               <tr>
+                  <td class="image"><a href="images/5d8b40_31ed79f7cddd4ba692c795d7a379d308.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img8" src="images/tn_5d8b40_31ed79f7cddd4ba692c795d7a379d308.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_33bf373d4a414eac8cc82fc8c20e31eb.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img9" src="images/tn_5d8b40_33bf373d4a414eac8cc82fc8c20e31eb.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_837a55d86458404b81bc29edc6d10691.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img10" src="images/tn_5d8b40_837a55d86458404b81bc29edc6d10691.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_21648492cc354f14b42c68b77251e175.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img11" src="images/tn_5d8b40_21648492cc354f14b42c68b77251e175.png"></a></td>
+               </tr>
+               <tr>
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+               </tr>
+               <tr>
+                  <td class="image"><a href="images/5d8b40_59517448778847c9bb621a0f82d3fee8.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img12" src="images/tn_5d8b40_59517448778847c9bb621a0f82d3fee8.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_a16c992b073644e69a005440c9ab9e8d.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img13" src="images/tn_5d8b40_a16c992b073644e69a005440c9ab9e8d.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_ad35c3d56fb049bd8ce3d21291ed3770.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img14" src="images/tn_5d8b40_ad35c3d56fb049bd8ce3d21291ed3770.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_b1b6aadbaa414d228a98da94a7b68f2d.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img15" src="images/tn_5d8b40_b1b6aadbaa414d228a98da94a7b68f2d.png"></a></td>
+               </tr>
+               <tr>
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+               </tr>
+               <tr>
+                  <td class="image"><a href="images/5d8b40_c1f76d8e66a54446964d90076b150c65.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img16" src="images/tn_5d8b40_c1f76d8e66a54446964d90076b150c65.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_c7d4b2bf202c4ee19b0d4f2c9b2a43f3.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img17" src="images/tn_5d8b40_c7d4b2bf202c4ee19b0d4f2c9b2a43f3.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_c793f96d965f4d088cede51ce2f08582.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img18" src="images/tn_5d8b40_c793f96d965f4d088cede51ce2f08582.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_c42795f81d4546c3b73d38300a54d66d.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img19" src="images/tn_5d8b40_c42795f81d4546c3b73d38300a54d66d.png"></a></td>
+               </tr>
+               <tr>
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+               </tr>
+               <tr>
+                  <td class="image"><a href="images/5d8b40_e3b9108ab82e435ea9466f4f0313fbac.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img20" src="images/tn_5d8b40_e3b9108ab82e435ea9466f4f0313fbac.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_f23bebc6483945df98f5222e5e1f528a.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img21" src="images/tn_5d8b40_f23bebc6483945df98f5222e5e1f528a.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_f0230a61bfdc4bada32135a57001baa4.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]" class="rotate4deg"><img alt="" id="indexPhotoGallery1_img22" src="images/tn_5d8b40_f0230a61bfdc4bada32135a57001baa4.png"></a></td>
+                  <td class="image"><a href="images/5d8b40_fb5414acc7ed47df927b9d826616430d.jpg" data-rel="prettyPhoto_indexPhotoGallery1[indexPhotoGallery1]"><img alt="" id="indexPhotoGallery1_img23" src="images/tn_5d8b40_fb5414acc7ed47df927b9d826616430d.png"></a></td>
+               </tr>
+               <tr>
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+                  <td class="caption">
+               </tr>
+            </table>
+         </div>
+      </div>
+   </div>
+   <div id="indexLayer12" style="position:absolute;text-align:center;left:0%;top:7021px;width:100%;height:267px;z-index:153;">
+      <div id="indexLayer12_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+      <div id="indexLayer8_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText40" style="position:absolute;left:359px;top:78px;width:611px;height:50px;text-align:center;z-index:85;">
+            <span style="color:#000000;font-family:'Intro ';font-size:21px;">Хотите решить вопрос с камином<br> раз и навсегда?</span></div>
+         <div id="wb_indexText41" style="position:absolute;left:411px;top:142px;width:515px;height:40px;text-align:center;z-index:86;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Звоните по телефону:</span></div>
+	   <div id="wb_indexText32" style="position:absolute;left:502px;top:167px;width:261px;height:34px;text-align:right;z-index:68;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;"><strong>+375(29)</strong></span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>         
+      </div>
+      </div>
+   </div>
+   <div id="indexLayer13" style="position:absolute;text-align:center;left:0%;top:7288px;width:100%;height:85px;z-index:154;">
+      <div id="indexLayer13_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+         <div id="wb_indexText59" style="position:absolute;left:69px;top:17px;width:261px;height:48px;z-index:135;text-align:left;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:13px;"><strong>Профессиональная установка и облицовка каминов, печей, дымоходов<br>в Гродно и области</strong></span></div>
+         <div id="wb_indexText60" style="position:absolute;left:506px;top:12px;width:261px;height:34px;text-align:right;z-index:136;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:21px;">+375(29)</span><span style="color:#000000;font-family:'Intro ';font-size:27px;"> </span><span style="color:#FF0000;font-family:Lobster;font-size:27px;"><strong>789-15-35</strong></span></div>
+         <div id="wb_indexText61" style="position:absolute;left:506px;top:52px;width:261px;height:20px;text-align:right;z-index:137;">
+            <span style="color:#FF0000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">Пн-Вс&nbsp; 09.00-19.00</span></div>
+         
+         <div id="wb_indexImage22" style="position:absolute;left:0px;top:12px;width:60px;height:60px;z-index:139;">
+            <img src="images/logo1.png" id="indexImage22" alt=""></div>
+         <div id="wb_indexShape26" style="position:absolute;left:417px;top:9px;width:33px;height:47px;z-index:140;">
+            <img src="images/img0030.png" id="indexShape26" alt="" style="width:33px;height:47px;"></div>
+         <div id="wb_indexText62" style="position:absolute;left:396px;top:52px;width:75px;height:20px;text-align:center;z-index:141;">
+            <span style="color:#000000;font-family:'Harmonia Sans Pro Cyr';font-size:16px;">наверх</span></div>
+      </div>
+   </div>
 </body>
 </html>
